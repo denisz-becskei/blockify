@@ -2,7 +2,7 @@
 
 Used to turn images into Minecraft Blockified versions of the image.
 
-The way it works, is it has a block palette. At the beginning of the run, every block's average color gets calculated and stored, then takes every pixel of the input image one by one, and stores it's (R, G, B) values.
+The way it works, is it has a block palette. At the beginning of the run, every block's average color on the palette gets calculated and stored, then takes every pixel of the input image one by one, and stores it's (R, G, B) values.
 Then we check the difference between the pixels' and the palette's (R, G, B) values, and the best match gets selected from the palette. Then we build up the output from the selected blocks.
 
 ## Usage
