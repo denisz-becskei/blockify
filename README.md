@@ -18,5 +18,5 @@ Extension | Effect
 
 ## Recommendation
 
-We recommend to not use large images. For a 200x200 input image, it needs to place down 40,000 blocks on the output. The bigger the input is, the longer conversion takes, and bigger the output file.
-On a bigger image, than 200x200 image, we recommend a JPEG output format. For example, the test image "galaxy.png" (which is of a size of 1000x667), the output file's size is 324MB in PNG format, while it's 82.4MB in JPEG.
+I recommend to not use large images. For a 200x200 input image, it needs to place down 40,000 blocks on the output. The bigger the input is, the longer conversion takes, and bigger the output file.
+On a bigger image, than 200x200 image, I recommend a JPEG output format. For example, the test image "galaxy.png" (which is of a size of 1000x667), the output file's size is 324MB in PNG format, while it's 82.4MB in JPEG.
